@@ -3,6 +3,7 @@ import { Component, input } from '@angular/core';
 export class IconComponent {
  name=input('arrow');size=input(20);
  paths:Record<string,string>={
+ Shield:'M12 3 3 7v5c0 5 9 10 9 10s9-5 9-10V7l-9-4Zm-4 9 3 3 5-6',
  arrow:'M7 17 17 7M7 7h10v10',down:'M12 5v14m-6-6 6 6 6-6',plus:'M12 5v14M5 12h14',close:'m6 6 12 12M6 18 18 6',menu:'M4 6h16M4 12h16M4 18h16',
  pin:'M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0ZM15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0',
  linkedin:'M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v2M2 9h4v12H2zM2 2h4v4H2z',
