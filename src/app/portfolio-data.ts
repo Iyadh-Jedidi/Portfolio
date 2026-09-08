@@ -3,16 +3,16 @@ export const projects = [
     "name": "Tetra Connect",
     "image": "tetra.png",
     "category": [
-      "Paiement · Application web",
-      "Payments · Web application"
+      "Paiement · Gestion de parc",
+      "Payments · Fleet management"
     ],
     "description": [
-      "Piloter un parc de terminaux, à distance.",
-      "Managing a terminal fleet, remotely."
+      "Gérer et superviser les terminaux AXIUM et TETRA.",
+      "Managing and monitoring AXIUM and TETRA terminals."
     ],
     "detail": [
-      "Plateforme de gestion et de supervision des terminaux de paiement TELIUM2 et TETRA. Chez Ingenico, je contribue à son développement Full Stack, à sa modernisation et à sa stabilité en production.",
-      "A platform for managing and monitoring TELIUM2 and TETRA payment terminals. At Ingenico, I contribute to its Full Stack development, modernisation and production stability."
+      "Tetra Connect est une plateforme métier de gestion et de supervision de parcs de terminaux de paiement AXIUM et TETRA. Elle centralise l’administration des mainteneurs, des parcs et des terminaux, leur synchronisation ainsi que les opérations réalisées à distance.",
+      "Tetra Connect is a business platform for managing and monitoring fleets of AXIUM and TETRA payment terminals. It centralises the administration of maintainers, fleets and terminals, their synchronisation and remote operations."
     ],
     "tags": [
       "Angular",
@@ -20,6 +20,7 @@ export const projects = [
       "Node.js",
       "PostgreSQL",
       "Redis",
+      "BullMQ",
       "Keycloak",
       "SSO",
       "SAML 2.0",
@@ -39,8 +40,16 @@ export const projects = [
     "style": "tetra",
     "contributions": [
       [
-        "Modernisation d’Angular, Node.js et TypeScript, avec suivi des dépendances et des vulnérabilités.",
-        "Modernising Angular, Node.js and TypeScript, with dependency and vulnerability monitoring."
+        "Développement et maintenance de l’interface Angular et des services Node.js/TypeScript de la plateforme.",
+        "Development and maintenance of the Angular interface and the platform’s Node.js/TypeScript services."
+      ],
+      [
+        "Fonctionnalités de gestion des mainteneurs, des parcs et des terminaux AXIUM et TETRA.",
+        "Fleet management features for maintainers, fleets, and AXIUM and TETRA terminals."
+      ],
+      [
+        "Synchronisation des terminaux, suivi des versions et exécution d’actions de maintenance à distance.",
+        "Terminal synchronisation, version tracking and remote maintenance operations."
       ],
       [
         "Authentification et gestion des accès : Keycloak, SSO, SAML 2.0, JWT et 2FA/OTP.",
@@ -51,12 +60,8 @@ export const projects = [
         "PostgreSQL optimisation and complex JSONB processing; load testing with JMeter."
       ],
       [
-        "API REST documentées et sécurisées avec Swagger, tests automatisés et qualité avec SonarCloud.",
-        "Documented and secured REST APIs with Swagger, automated testing and code quality with SonarCloud."
-      ],
-      [
-        "Investigation d’incidents avec des scripts Python d’analyse des logs et contribution aux déploiements CI/CD.",
-        "Incident investigation using Python log-analysis scripts and contribution to CI/CD deployments."
+        "API REST sécurisées et documentées avec Swagger, tests automatisés, SonarCloud et déploiements CI/CD.",
+        "Secure REST APIs documented with Swagger, automated testing, SonarCloud and CI/CD deployments."
       ]
     ]
   },

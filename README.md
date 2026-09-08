@@ -36,6 +36,8 @@ Aucun formulaire serveur ni service externe n’est nécessaire. Le contact ouvr
 
 Les missions, projets, compétences et dates Equalios ont été actualisés à partir du CV Novencia fourni le 8 septembre 2026 (`Iyadh_JEDIDI_20260827_Novencia.pdf`). Ce document est prioritaire en cas de divergence. L’entrée Novencia, les coordonnées, les langues et les liens de certifications déjà présents sont conservés depuis le portfolio original. Le PDF lui-même n’est pas inclus dans les fichiers publics.
 
+La présentation publique de Tetra Connect a également été précisée à partir du projet local `Maintenance` : gestion et supervision de parcs de terminaux de paiement AXIUM et TETRA, synchronisation et opérations de maintenance à distance. Aucun identifiant, détail d’infrastructure ou autre élément interne n’est repris dans le portfolio.
+
 ## GitHub Pages
 
 Le workflow `.github/workflows/deploy-pages.yml` compile et publie le site à chaque push sur `main`. Dans les paramètres du dépôt, choisir **Pages → Source → GitHub Actions**. GitHub Pages doit être disponible pour le dépôt (dépôt public sur le forfait gratuit, ou forfait compatible avec les dépôts privés).
